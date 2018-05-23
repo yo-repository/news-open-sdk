@@ -13,6 +13,7 @@ import com.yo.news.open.sdk.auth.Credentials;
  **/
 public class TestMain {
     public static void main(String[] args) {
+        //
         Gson gson = new GsonBuilder().disableHtmlEscaping().create();
         Credentials credentials = new Credentials("13123", "4234234");
         OpenClient openClient = new OpenClient("http://localhost:8084", credentials);
