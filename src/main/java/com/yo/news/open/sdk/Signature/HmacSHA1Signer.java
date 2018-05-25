@@ -13,7 +13,6 @@ import java.security.NoSuchAlgorithmException;
  * Author:JAN
  * Date:14:32 2018-5-15
  * Note:
- * 现在加密工具http://encode.chahuo.com/
  **/
 public class HmacSHA1Signer extends Signer {
 
