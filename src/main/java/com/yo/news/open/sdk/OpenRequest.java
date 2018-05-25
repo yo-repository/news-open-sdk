@@ -80,6 +80,7 @@ public abstract class OpenRequest<T extends ResponseModel> extends HttpRequest {
             String accessKeyId = credentials.getAccessKeyId();
             String accessSecret = credentials.getAccessKeySecret();
             imutableMap = this.composer.refreshSignParameters(imutableMap, accessKeyId);
+            String key = imutableMap.get("accessKeyId");
             String strToSign = this.composer.composeStringToSign(imutableMap, signer);
             String signature = signer.signString(strToSign, accessSecret);
             ((Map) imutableMap).put("signature", signature);

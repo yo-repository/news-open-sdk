@@ -40,8 +40,10 @@ public class SignerComposer implements ISignerComposer {
             int length = sortedKeys.length;
             for (int i = 0; i < length; ++i) {
                 String key = sortedKeys[i];
-                contactQueryString.append(QUERY_SEPARATOR).append(URLEncoder.percentEncode(key)).append("=").append(URLEncoder.percentEncode(queries.get(key)));
+//                contactQueryString.append(QUERY_SEPARATOR).append(URLEncoder.percentEncode(key)).append("=").append(URLEncoder.percentEncode(queries.get(key)));
+                contactQueryString.append(QUERY_SEPARATOR).append(key).append("=").append(queries.get(key));
             }
+            System.out.println(contactQueryString.toString().substring(1));
             return URLEncoder.percentEncode(contactQueryString.toString().substring(1));
         } catch (UnsupportedEncodingException ex) {
             throw new RuntimeException("UTF-8 encoding is not supported.");

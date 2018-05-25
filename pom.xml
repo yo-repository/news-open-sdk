@@ -6,7 +6,7 @@
 
     <groupId>com.yo.news.open.sdk</groupId>
     <artifactId>news-open-sdk</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <dependencies>
         <dependency>
             <groupId>com.google.code.gson</groupId>

@@ -14,12 +14,12 @@ public class Credentials implements ICredentials {
         this.accessSecret = secret;
     }
 
-    @Override
+
     public String getAccessKeyId() {
         return accessKeyId;
     }
 
-    @Override
+
     public String getAccessKeySecret() {
         return accessSecret;
     }
