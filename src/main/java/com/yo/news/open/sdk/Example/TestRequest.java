@@ -11,7 +11,7 @@ import com.yo.news.open.sdk.http.MethodType;
  **/
 public class TestRequest extends OpenRequest<TestResponseModel> {
     public TestRequest() {
-        super("/open/newsphere/v1/msg/send.json", MethodType.POST, FormatType.JSON);
+        super("/open/newsphere/v1/msg/send.json", MethodType.POST, FormatType.FORM);
     }
 
 //    private String paramter1;
