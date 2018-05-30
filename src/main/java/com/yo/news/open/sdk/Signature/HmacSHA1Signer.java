@@ -4,7 +4,6 @@ import sun.misc.BASE64Encoder;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
-import javax.xml.bind.DatatypeConverter;
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
@@ -30,8 +29,6 @@ public class HmacSHA1Signer extends Signer {
             mac.init(new SecretKeySpec(accessKeySecret.getBytes(ENCODING), ALGORITHM_NAME));
             byte[] signData = mac.doFinal(stringToSign.getBytes(ENCODING));
             return base64Encoder.encode(signData);
-//            String e = DatatypeConverter.printBase64Binary(signData);
-
         } catch (NoSuchAlgorithmException nosuchAlogorithmEx) {
             throw new IllegalArgumentException(nosuchAlogorithmEx.toString());
         } catch (UnsupportedEncodingException unsupportedEncodingEx) {

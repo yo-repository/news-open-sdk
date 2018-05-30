@@ -32,10 +32,14 @@ public class OpenClient {
         this.iCredentials = iCredentials;
     }
 
-    public OpenClient(String hostDamin, ICredentials iCredentials) {
-        if (hostDamin != null && "".equals(hostDamin) == false) {
-            HOST_DOMAIN = hostDamin;
+    public OpenClient(String hostDomain, ICredentials iCredentials) {
+        if (hostDomain != null && "".equals(hostDomain) == false) {
+            if (hostDomain.contains("http://") == false || hostDomain.contains("https://") == false) {
+                throw new RuntimeException("hostDomain must start with http:// or https://");
+            }
+            HOST_DOMAIN = hostDomain;
         }
+
         this.iCredentials = iCredentials;
     }
 
