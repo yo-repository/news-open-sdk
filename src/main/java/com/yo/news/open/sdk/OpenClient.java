@@ -32,6 +32,11 @@ public class OpenClient {
         this.iCredentials = iCredentials;
     }
 
+    /**
+     * Author:JAN
+     * Date:14:34 2018-5-30
+     * Note: domain like https://open.baoxinwen.com
+     **/
     public OpenClient(String hostDomain, ICredentials iCredentials) {
         if (hostDomain != null && "".equals(hostDomain) == false) {
             if (hostDomain.contains("http://") == false || hostDomain.contains("https://") == false) {
