@@ -22,7 +22,7 @@ import java.security.InvalidKeyException;
  * Note:
  **/
 public class OpenClient {
-    private static String HOST_DOMAIN = "http://wwww.baoxinwen.com";
+    private static String HOST_DOMAIN = "https://open.baoxinwen.com";
     ICredentials iCredentials;
     protected Signer signer = new HmacSHA1Signer();
     static Gson gson = new GsonBuilder().disableHtmlEscaping().create();

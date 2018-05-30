@@ -51,6 +51,6 @@ public class HmacSHA1Signer extends Signer {
     }
 
     public String getSignerType() {
-        return null;
+        return "HMAC-SHA1";
     }
 }

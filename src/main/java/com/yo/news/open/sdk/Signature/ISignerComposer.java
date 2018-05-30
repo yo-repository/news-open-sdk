@@ -8,7 +8,7 @@ import java.util.Map;
  * Note:
  **/
 public interface ISignerComposer {
-    Map<String, String> refreshSignParameters(Map<String, String> parameters, String accessKeyId);
+    Map<String, String> refreshSignParameters(Map<String, String> parameters, String accessKeyId,Signer signer);
 
     String composeStringToSign(Map<String, String> queries, Signer signer);
 }

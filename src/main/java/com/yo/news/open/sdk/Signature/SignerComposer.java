@@ -17,10 +17,12 @@ public class SignerComposer implements ISignerComposer {
     protected static final String QUERY_SEPARATOR = "&";
     protected static final String HEADER_SEPARATOR = "\n";
 
-    public Map<String, String> refreshSignParameters(Map<String, String> parameters, String accessKeyId) {
+    public Map<String, String> refreshSignParameters(Map<String, String> parameters, String accessKeyId,Signer signer) {
         parameters.put("timestamp", ParameterHelper.getISO8601Time(null));
         parameters.put("signNonce", ParameterHelper.getUniqueNonce());
         parameters.put("accessKeyId", accessKeyId);
+        parameters.put("version", signer.getSignerVersion());
+        parameters.put("signType", signer.getSignerType());
         return parameters;
     }
 
