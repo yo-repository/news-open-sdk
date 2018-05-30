@@ -17,6 +17,7 @@ public class HttpRequest {
     protected static final String CONTENT_TYPE = "Content-Type";
     protected static final String CONTENT_MD5 = "Content-MD5";
     protected static final String CONTENT_LENGTH = "Content-Length";
+    protected static final String ACCEPT = "Accept";
     private String url = null;
     private MethodType method = MethodType.GET;
     protected FormatType httpContentType = null;
@@ -113,7 +114,7 @@ public class HttpRequest {
             } else {
                 this.httpContentType = FormatType.RAW;
             }
-
+            this.headers.put(ACCEPT, FormatType.mapFormatToAccept(FormatType.JSON));
             this.headers.put(CONTENT_MD5, strMd5);
             this.headers.put(CONTENT_LENGTH, contentLen);
             this.headers.put(CONTENT_TYPE, this.getContentTypeValue(this.httpContentType, encoding));

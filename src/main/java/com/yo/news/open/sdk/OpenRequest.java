@@ -38,7 +38,7 @@ public abstract class OpenRequest<T extends ResponseModel> extends HttpRequest {
         this.putQueryParameter("data", data);
     }
 
-    public OpenRequest(String requestUri, MethodType methodType, FormatType formatType) {
+    public OpenRequest(String requestUri, MethodType methodType) {
 
         if (requestUri == null || "".equals(requestUri)) {
             throw new RuntimeException("invalid requestUri");
@@ -48,10 +48,10 @@ public abstract class OpenRequest<T extends ResponseModel> extends HttpRequest {
             methodType = MethodType.GET;
         }
         super.setMethod(methodType);
-        if (formatType == null) {
-            formatType = FormatType.JSON;
-        }
-        this.setAcceptFormat(formatType);
+//        if (formatType == null) {
+//            formatType = FormatType.JSON;
+//        }
+//        this.setAcceptFormat(formatType);
     }
 
     public Map<String, String> getQueryParameters() {

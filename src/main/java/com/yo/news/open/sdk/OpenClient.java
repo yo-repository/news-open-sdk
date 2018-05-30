@@ -57,7 +57,13 @@ public class OpenClient {
 
     private <T extends ResponseModel> T getResponse(HttpResponse httpResponse, Class<T> clasz) {
         String responseContent = this.getResponseContent(httpResponse);
-        return gson.fromJson(responseContent, clasz);
+        try {
+            T t = gson.fromJson(responseContent, clasz);
+            return t;
+        } catch (Exception ex) {
+            throw new RuntimeException("response Content is " + responseContent);
+        }
+
     }
 
     private HttpResponse doAction(OpenRequest request, ICredentials credentials, boolean autoRetry, int maxRetryNumber) throws ClientException {
