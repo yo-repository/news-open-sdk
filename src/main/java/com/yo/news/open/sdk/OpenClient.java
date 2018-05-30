@@ -39,7 +39,7 @@ public class OpenClient {
      **/
     public OpenClient(String hostDomain, ICredentials iCredentials) {
         if (hostDomain != null && "".equals(hostDomain) == false) {
-            if (hostDomain.contains("http://") == false || hostDomain.contains("https://") == false) {
+            if (hostDomain.startsWith("http://") == false && hostDomain.startsWith("https://") == false) {
                 throw new RuntimeException("hostDomain must start with http:// or https://");
             }
             HOST_DOMAIN = hostDomain;
