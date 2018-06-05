@@ -8,13 +8,5 @@ import com.yo.news.open.sdk.http.ResponseModel;
  * Note:
  **/
 public class TestResponseModel extends ResponseModel {
-    private String a;
 
-    public String getA() {
-        return a;
-    }
-
-    public void setA(String a) {
-        this.a = a;
-    }
 }
