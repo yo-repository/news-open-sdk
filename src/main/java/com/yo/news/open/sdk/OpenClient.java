@@ -51,6 +51,7 @@ public class OpenClient {
 
     public <T extends ResponseModel> T doRequest(OpenRequest<T> request, boolean autoRetry, int maxRetryCounts) throws ClientException {
         HttpResponse httpResponse = this.doAction(request, iCredentials, autoRetry, maxRetryCounts);
+        System.out.println(httpResponse.getUrl());
         return getResponse(httpResponse, request.getResponseModelClass());
     }
 

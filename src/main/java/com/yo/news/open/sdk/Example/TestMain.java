@@ -19,10 +19,8 @@ public class TestMain {
         Gson gson = new GsonBuilder().disableHtmlEscaping().create();
         Credentials credentials = new Credentials("99e09b4bd0bd4ae79fbc222b16692eec", "01c326c10dd141068bc7e30dcc43e05a");
         OpenClient openClient = new OpenClient("https://open.baoxinwen.com", credentials);
+//        OpenClient openClient = new OpenClient("http://localhost:8080", credentials);
         TestRequest testRequest = new TestRequest();
-//        testRequest.setParamter1("a");
-//        testRequest.setParamter2(null);
-
         SendMsgRequestM sendMsgRequestM = new SendMsgRequestM();
         sendMsgRequestM.setFromLoginId("1131");
         sendMsgRequestM.setbNofity(false);
