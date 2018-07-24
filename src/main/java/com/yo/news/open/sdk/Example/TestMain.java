@@ -17,18 +17,20 @@ public class TestMain {
     public static void main(String[] args) {
         //
         Gson gson = new GsonBuilder().disableHtmlEscaping().create();
-        Credentials credentials = new Credentials("99e09b4bd0bd4ae79fbc222b16692eec", "01c326c10dd141068bc7e30dcc43e05a");
+        Credentials credentials = new Credentials(" ", " ");
+//        Credentials credentials = new Credentials("13a3ca114b814cfe88febe60c4056ee9", "e1891f2266284b22aeb6007a51fe2488");
         OpenClient openClient = new OpenClient("https://open.baoxinwen.com", credentials);
-//        OpenClient openClient = new OpenClient("http://localhost:8080", credentials);
+//        OpenClient openClient = new OpenClient("http://localhost:9010", credentials);
         TestRequest testRequest = new TestRequest();
         SendMsgRequestM sendMsgRequestM = new SendMsgRequestM();
-        sendMsgRequestM.setFromLoginId("1131");
-        sendMsgRequestM.setbNofity(false);
-        sendMsgRequestM.setMsgContent("稿件审核通过");
+//        sendMsgRequestM.setFromLoginId("030004651");
+        sendMsgRequestM.setFromLoginId("cdv");
+        sendMsgRequestM.setbNofity(true);
+        sendMsgRequestM.setMsgContent("cdv loginId 测试");
         ArrayList list = new ArrayList(3);
-        list.add("1");
-        list.add("2");
-        list.add("3");
+        list.add("yy2017");
+//        list.add("03040482");
+//        list.add("3");
         sendMsgRequestM.setToLoginIds(list);
         String data = gson.toJson(sendMsgRequestM);
 //        data = "{\"fromUserId\":\"1131\"}";
