@@ -1,0 +1,20 @@
+package com.yo.news.open.sdk.Example.User;
+
+import com.yo.news.open.sdk.Example.TestResponseModel;
+import com.yo.news.open.sdk.OpenRequest;
+import com.yo.news.open.sdk.http.MethodType;
+
+/**
+ * Author:JAN
+ * Date:16:09 2018-8-22
+ * Note:
+ **/
+public class AddUserRequest extends OpenRequest<TestResponseModel> {
+    public AddUserRequest() {
+        super("/open/tob/user/v1/add.json", MethodType.POST);
+    }
+
+    public Class getResponseModelClass() {
+        return null;
+    }
+}
