@@ -52,13 +52,22 @@ public class OpenClient {
     public <T extends ResponseModel> T doRequest(OpenRequest<T> request, boolean autoRetry, int maxRetryCounts) throws ClientException {
         HttpResponse httpResponse = this.doAction(request, iCredentials, autoRetry, maxRetryCounts);
         System.out.println(httpResponse.getUrl());
+        if (request.getResponseModelClass() == null) {
+            throw new RuntimeException("ResponseModelClass of OpenRequest required");
+        }
         return getResponse(httpResponse, request.getResponseModelClass());
     }
 
+    public <T extends ResponseModel> String doRequest4Body(OpenRequest<T> request, boolean autoRetry, int maxRetryCounts) throws ClientException {
+        HttpResponse httpResponse = this.doAction(request, iCredentials, autoRetry, maxRetryCounts);
+        System.out.println(httpResponse.getUrl());
+        return this.getResponseContent(httpResponse);
+    }
 
     private <T extends ResponseModel> T getResponse(HttpResponse httpResponse, Class<T> clasz) {
         String responseContent = this.getResponseContent(httpResponse);
         try {
+
             T t = gson.fromJson(responseContent, clasz);
             return t;
         } catch (Exception ex) {
