@@ -16,11 +16,11 @@ public class TestDelUserMain {
         //
         Gson gson = new GsonBuilder().disableHtmlEscaping().create();
         Credentials credentials = new Credentials("13a3ca114b814cfe88febe60c4056ee9", "e1891f2266284b22aeb6007a51fe2488");
-//        OpenClient openClient = new OpenClient("https://open.baoxinwen.com", credentials);
-        OpenClient openClient = new OpenClient("http://localhost:9010", credentials);
+        OpenClient openClient = new OpenClient("https://open.baoxinwen.com", credentials);
+//        OpenClient openClient = new OpenClient("http://localhost:9010", credentials);
         DelUserRequestM requestM = new DelUserRequestM();
 //        requestM.setUserId3rd("");
-        requestM.setUserId3rd("12312312312");
+        requestM.setUserId3rd("1111111");
         String data = gson.toJson(requestM, DelUserRequestM.class);
 
 

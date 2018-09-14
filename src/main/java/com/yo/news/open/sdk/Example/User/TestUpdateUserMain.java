@@ -25,8 +25,8 @@ public class TestUpdateUserMain {
         updateUserModel.setNickname("lover1");
         updateUserModel.setSex(0);
         updateUserModel.setTrueName("JAN1");
-        updateUserModel.setTel("18610008886");
-        updateUserModel.setUserId3rd("12312312312");
+        updateUserModel.setTel("18610008885");
+        updateUserModel.setUserId3rd("1111111");
         requestM.setUser(updateUserModel);
         String data = gson.toJson(requestM, UpdateUserRequestM.class);
         UpdateUserRequest testRequest = new UpdateUserRequest();

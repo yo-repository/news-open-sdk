@@ -8,6 +8,8 @@ import com.yo.news.open.sdk.Example.TestResponseModel;
 import com.yo.news.open.sdk.OpenClient;
 import com.yo.news.open.sdk.auth.Credentials;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * Author:JAN
  * Date:16:48 2018-8-21
@@ -17,10 +19,11 @@ public class TestAddUserMain {
 
     public static void main(String[] args) {
         //
+
         Gson gson = new GsonBuilder().disableHtmlEscaping().create();
         Credentials credentials = new Credentials("13a3ca114b814cfe88febe60c4056ee9", "e1891f2266284b22aeb6007a51fe2488");
-//        OpenClient openClient = new OpenClient("https://open.baoxinwen.com", credentials);
-        OpenClient openClient = new OpenClient("http://localhost:9010", credentials);
+        OpenClient openClient = new OpenClient("https://open.baoxinwen.com", credentials);
+//        OpenClient openClient = new OpenClient("http://localhost:9010", credentials);
         AddUserRequestM requestM = new AddUserRequestM();
         AddUserRequestM.AddUserModel addUserModel = new AddUserRequestM.AddUserModel();
         addUserModel.setEmail("testaa.mail.com");
@@ -28,8 +31,8 @@ public class TestAddUserMain {
         addUserModel.setPwd(AppMD5Util.getMD5("111111"));
         addUserModel.setSex(1);
         addUserModel.setTrueName("JAN");
-        addUserModel.setTel("18610008888");
-        addUserModel.setUserId3rd("12312312312");
+        addUserModel.setTel("18610008886");
+        addUserModel.setUserId3rd("1111111");
         requestM.setUser(addUserModel);
         String data = gson.toJson(requestM, AddUserRequestM.class);
 
