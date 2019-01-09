@@ -10,15 +10,15 @@ import com.yo.news.open.sdk.http.MethodType;
  * Note:
  **/
 public class TestRequest extends OpenRequest<TestResponseModel> {
-//    public TestRequest() {
-//        super("/open/newsphere/v1/msg/send.json", MethodType.POST);
-//    }
+    public TestRequest() {
+        super("/open/newsphere/v1/msg/send.json", MethodType.POST);
+    }
 //    public TestRequest() {
 //        super("/open/script/v1/addFromUrl.json", MethodType.POST);
 //    }
-    public TestRequest() {
-        super("/open/tob/user/v1/add.json", MethodType.POST);
-    }
+//    public TestRequest() {
+//        super("/open/tob/user/v1/add.json", MethodType.POST);
+//    }
 
 //    private String paramter1;
 //    private String paramter2;
