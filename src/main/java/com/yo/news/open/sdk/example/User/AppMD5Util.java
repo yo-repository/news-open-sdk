@@ -1,4 +1,4 @@
-package com.yo.news.open.sdk.Example.User;
+package com.yo.news.open.sdk.example.User;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

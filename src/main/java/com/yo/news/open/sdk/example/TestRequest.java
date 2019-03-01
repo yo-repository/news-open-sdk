@@ -1,7 +1,6 @@
-package com.yo.news.open.sdk.Example;
+package com.yo.news.open.sdk.example;
 
 import com.yo.news.open.sdk.OpenRequest;
-import com.yo.news.open.sdk.http.FormatType;
 import com.yo.news.open.sdk.http.MethodType;
 
 /**

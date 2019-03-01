@@ -1,4 +1,4 @@
-package com.yo.news.open.sdk.Example;
+package com.yo.news.open.sdk.example;
 
 import com.yo.news.open.sdk.http.ResponseModel;
 

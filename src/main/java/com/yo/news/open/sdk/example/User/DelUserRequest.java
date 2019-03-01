@@ -1,4 +1,4 @@
-package com.yo.news.open.sdk.Example.User;
+package com.yo.news.open.sdk.example.User;
 
 import com.yo.news.open.sdk.OpenRequest;
 import com.yo.news.open.sdk.http.MethodType;

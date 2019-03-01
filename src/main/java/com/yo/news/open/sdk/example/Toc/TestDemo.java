@@ -1,15 +1,10 @@
-package com.yo.news.open.sdk.Example.Toc;
+package com.yo.news.open.sdk.example.Toc;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.yo.news.open.sdk.Example.SendMsgRequestM;
-import com.yo.news.open.sdk.Example.TestRequest;
-import com.yo.news.open.sdk.Example.TestResponseModel;
 import com.yo.news.open.sdk.OpenClient;
 import com.yo.news.open.sdk.auth.Credentials;
 import com.yo.news.open.sdk.http.MethodType;
-
-import java.util.ArrayList;
 
 /**
  * Author:JAN

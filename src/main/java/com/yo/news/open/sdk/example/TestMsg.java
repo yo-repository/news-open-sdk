@@ -1,4 +1,4 @@
-package com.yo.news.open.sdk.Example;
+package com.yo.news.open.sdk.example;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Date:12:26 2018-5-23
  * Note:
  **/
-public class TestMain {
+public class TestMsg {
     public static void main(String[] args) {
         //
         Gson gson = new GsonBuilder().disableHtmlEscaping().create();

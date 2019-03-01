@@ -1,8 +1,7 @@
-package com.yo.news.open.sdk.Example.User;
+package com.yo.news.open.sdk.example.User;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.yo.news.open.sdk.Example.TestResponseModel;
 import com.yo.news.open.sdk.OpenClient;
 import com.yo.news.open.sdk.auth.Credentials;
 

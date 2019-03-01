@@ -1,4 +1,4 @@
-package com.yo.news.open.sdk.Example;
+package com.yo.news.open.sdk.example;
 
 import java.util.List;
 

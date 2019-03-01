@@ -1,4 +1,4 @@
-package com.yo.news.open.sdk.Example;
+package com.yo.news.open.sdk.example;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
