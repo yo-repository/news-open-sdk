@@ -30,6 +30,7 @@ public class TestClue {
     {
         Gson gson = new GsonBuilder().disableHtmlEscaping().create();
         AddClueModel requestM=new AddClueModel();
+        requestM.setInstId("6427334496512640001");
         requestM.setCreatedTime("2019-02-28 17:28:00");
         requestM.setOriginId("1fb843839a853b68ae1814f6aa9180fe");
         requestM.setOrigin("东方头条-社会新闻");

@@ -8,7 +8,11 @@ package test.clue;
 public class AddClueModel {
 
     /**
-     *用户id
+     *对应在爆新闻这边的机构Id
+     **/
+    private String instId;
+    /**
+     *对应在爆新闻这边的用户id
      **/
     private String userId;
     /**
@@ -94,5 +98,13 @@ public class AddClueModel {
 
     public void setOriginId(String originId) {
         this.originId = originId;
+    }
+
+    public String getInstId() {
+        return instId;
+    }
+
+    public void setInstId(String instId) {
+        this.instId = instId;
     }
 }

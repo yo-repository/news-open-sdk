@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be836af0-95e8-4def-b384-b4370a07225c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/clue/AddClueModel.java" afterPath="$PROJECT_DIR$/src/main/java/test/clue/AddClueModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/clue/TestClue.java" afterPath="$PROJECT_DIR$/src/main/java/test/clue/TestClue.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestMain.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestRequest.class" afterPath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestRequest.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestResponseModel.class" afterPath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestResponseModel.class" />
@@ -28,37 +30,13 @@
       <file leaf-file-name="AddClueModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/AddClueModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
               <folding>
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
-                <element signature="e#1474#1475#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#1741#1742#0" expanded="true" />
+                <element signature="e#1777#1778#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,21 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Credentials.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Credentials.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/auth/Credentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="175">
+              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestClue.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestClue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/TestClue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="151">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/TestResponseModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -174,8 +152,8 @@
         <option value="$PROJECT_DIR$/src/main/java/test/clue/AddClueRequestM.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/clue/AddClueRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/Toc/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/clue/TestClue.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/clue/AddClueModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/clue/TestClue.java" />
       </list>
     </option>
   </component>
@@ -279,7 +257,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -544,7 +522,7 @@
       <workItem from="1547026980123" duration="1609000" />
       <workItem from="1547088331805" duration="14000" />
       <workItem from="1550111252035" duration="2988000" />
-      <workItem from="1551351568940" duration="6117000" />
+      <workItem from="1551351568940" duration="8421000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1527056099295</created>
@@ -725,9 +703,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClue_addClue - 2019.03.01 at 09h 45m 47s.xml">
-      <configuration name="TestClue.addClue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestClue_addClue - 2019.03.01 at 09h 46m 03s.xml">
       <configuration name="TestClue.addClue" configurationId="JUnit" />
     </history-entry>
@@ -755,9 +730,12 @@
     <history-entry file="TestClue_addClue - 2019.03.01 at 10h 02m 51s.xml">
       <configuration name="TestClue.addClue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestClue_addClue - 2019.03.01 at 11h 22m 15s.xml">
+      <configuration name="TestClue.addClue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157266000" />
+    <option name="totallyTimeSpent" value="159570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -770,7 +748,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19682151" sideWeight="0.493266" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35617977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -831,6 +809,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1196,7 +1200,7 @@
         <state relative-caret-position="214">
           <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1223,66 +1227,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/AddClueModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/TestResponseModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/TestClue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/auth/Credentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="175">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/AddClueModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding>
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/TestClue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
