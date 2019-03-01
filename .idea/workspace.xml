@@ -5,33 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be836af0-95e8-4def-b384-b4370a07225c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/test/clue/AddClueModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/test/clue/AddClueRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/test/clue/TestClue.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/news-open-sdk.iml" afterPath="$PROJECT_DIR$/news-open-sdk.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/ScriptInputRequestM.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/ScriptInputRequestM.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/SendMsgRequestM.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/SendMsgRequestM.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/TestMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/TestMsg.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/TestRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/TestRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/TestResponseModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/TestResponseModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/TestScriptMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/TestScriptMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/Toc/TestDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/Toc/TestDemo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/Toc/TestTocRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/Toc/TestTocRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/AddUserRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/AddUserRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/AddUserRequestM.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/AddUserRequestM.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/AppMD5Util.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/AppMD5Util.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/DelUserRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/DelUserRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/DelUserRequestM.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/DelUserRequestM.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/TestAddUserMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/TestAddUserMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/TestDelUserMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/TestDelUserMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/TestUpdateUserMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/TestUpdateUserMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/UpdateUserRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/UpdateUserRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/Example/User/UpdateUserRequestM.java" afterPath="$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/User/UpdateUserRequestM.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestMain.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestRequest.class" afterPath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestRequest.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestResponseModel.class" afterPath="$PROJECT_DIR$/target/classes/com/yo/news/open/sdk/Example/TestResponseModel.class" />
@@ -107,11 +80,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Credentials.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/auth/Credentials.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TestClue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/TestClue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestResponseModel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestResponseModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/example/TestResponseModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -273,23 +256,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newsopensdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news-open-sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newsopensdk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="news-open-sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newsopensdk" type="b2602c69:ProjectViewProjectNode" />
@@ -578,7 +544,7 @@
       <workItem from="1547026980123" duration="1609000" />
       <workItem from="1547088331805" duration="14000" />
       <workItem from="1550111252035" duration="2988000" />
-      <workItem from="1551351568940" duration="5651000" />
+      <workItem from="1551351568940" duration="6117000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1527056099295</created>
@@ -791,7 +757,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156800000" />
+    <option name="totallyTimeSpent" value="157266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -1110,14 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/auth/Credentials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/auth/ICredentials.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1265,16 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/TestClue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/AddClueModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1316,6 +1264,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/clue/TestClue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yo/news/open/sdk/auth/Credentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
